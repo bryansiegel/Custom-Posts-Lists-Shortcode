@@ -5,12 +5,15 @@ function custom_loop_shortcode_get_posts( $atts ) {
 	global $post;
 
 	extract( shortcode_atts( array(
+		'category_name' => '',
+		'author_name' => '',
+		'sentence' => true,
 		'posts_per_page' => 5,
 		'orderby' => 'date',
 	), $atts ) );
 
 	//define get_post params
-	$args = array( 'posts_per_page' => $posts_per_page, 'orderby' => $orderby );
+	$args = array( 'posts_per_page' => $posts_per_page, 'orderby' => $orderby, 'category_name' => $category_name, 'author_name' => $author_name, 'sentence' => $sentence );
 
 	//get the posts
 	$posts = get_posts( $args );

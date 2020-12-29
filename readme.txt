@@ -9,5 +9,5 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
-This is a very simple posts list using a shortcode. posts_per_page and orderby are the two parameters you can set this shortcode.
+This is a very simple posts list using a shortcode. posts_per_page,orderby, author, category and sentence search parameters for the shortcode.
  

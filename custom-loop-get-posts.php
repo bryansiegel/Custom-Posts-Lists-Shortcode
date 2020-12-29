@@ -4,7 +4,7 @@ Plugin Name: Custom Post List Shortcode
 Description: Wordpress simple custom post list shortcode. (posts_per_page and orderby parameters)
 Plugin URI: https://bryansiegel.com
 Author: Bryan Siegel
-Version: 1.0
+Version: 1.1
 */
 
 //deny direct access
